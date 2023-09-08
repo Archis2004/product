@@ -1,0 +1,154 @@
+*
+{
+    font-family: Lato;
+  }
+div
+  {
+    margin: 0 auto;
+  }
+#header-img
+  {
+    width: 300px;
+    height: 37px;
+    padding-top: 10px;
+  }
+nav
+  {
+    display: flex;
+  }
+.nav-link
+  {
+    padding: 20px 20px 0 20px;
+  }
+a
+  {
+    text-decoration: none;
+    color: black;
+  }
+.one
+  {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+form
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+#email
+  {
+    width: 250px;
+    height: 30px;
+  }
+#submit
+  {
+    border: 0;
+    width: 100px;
+    height: 30px;
+    font-size: 1rem;
+    background-color: #f3c70c;
+    font-weight: bold;
+  }
+#two
+  {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+.flex p
+  {
+    margin-top: -10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+@media (max-width: 800px)
+  {
+    .flex
+      {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+  }
+#four
+  {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+    max-width: 800px;
+    padding-bottom: 50px;
+  }
+.col
+  {
+    border: 2px solid black;
+    width: 31%;
+    max-width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.col *
+  {
+    margin: 10px;
+  }
+button
+  {
+    border: 0;
+    width: 100px;
+    height: 30px;
+    font-size: 1rem;
+    background-color: #f3c70c;
+    font-weight: bold;
+  }
+.grey
+  {
+    background-color: #ebebeb;
+    width: 100%;
+    display: flex;
+    margin-top: 0;
+    padding-bottom: 5px;
+    justify-content: center;
+  }
+@media(max-width: 500px)
+  {
+    #four
+      {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        padding: 20px;
+        max-width: 800px;
+      }
+    .col
+      {
+        width: 75%;
+      }
+  }
+footer
+  {
+    background-color: #ebebeb;
+    margin: -10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+.f1,.f2
+  {
+    display: flex;
+    gap: 10px;
+    flex-direction: row-reverse;
+  }
+#three
+  {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+  }
